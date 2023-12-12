@@ -80,17 +80,19 @@ function Auth() {
         </div>
         <div className="w-[445px]  h-[150px] flex flex-col gap-[16px]">
           <div className="flex flex-col items-start gap-[8px]">
-            <label htmlFor="">Email</label>
+            <label className="text-[#141414] font-[500] leading-normal">Email</label>
             <input
-              className="w-full p-[10px] rounded-[12px] border border-[#B6B3C6]"
+              className="w-full p-[10px] rounded-[12px] border border-[#B6B3C6] outline-none"
               type="text"
+              placeholder="Enter your email address"
             />
           </div>
           <div className="flex flex-col items-start gap-[8px]">
-            <label htmlFor="">Password</label>
+            <label className="text-[#141414] font-[500] leading-normal">Password</label>
             <input
-              className="w-full p-[10px] rounded-[12px] border border-[#B6B3C6]"
+              className="w-full p-[10px] rounded-[12px] border border-[#B6B3C6] outline-none "
               type="text"
+              placeholder="Enter your Password"
             />
           </div>
         </div>
