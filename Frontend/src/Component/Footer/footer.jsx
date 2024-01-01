@@ -12,7 +12,7 @@ function Footer() {
           </div>
         </div>
       
-        <div className="flex items-center justify-between  md:w-[780px] h-[158px] md:flex mditems-center md:gap-[100px] sm:w-[550px] sm:mx-auto sm:flex  md:items-center sm:justify-between">
+        <div className="flex items-center justify-between  md:w-[780px] h-[158px] md:flex mditems-center md:gap-[100px] sm:w-[550px] sm:mx-auto sm:flex  md:items-center sm:justify-between ">
             <ul className="flex flex-col gap-[10px] md:flex md:flex-col md:gap-[20px] text-white">
                 <li className="md:text-[16px] md:font-[600] md:leading-normal text-[12px]">Menu</li>
                 <li className="md:text-[16px] md:font-[600] md:leading-normal text-[12px]">Home</li>
