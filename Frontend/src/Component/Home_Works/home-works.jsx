@@ -12,7 +12,7 @@ function Home_Works() {
         </h1>
       </div>
 
-      <div className="md:mt-[130px] md:w-[1240px] md:h-[567px]  md:mx-auto md:left-0 md:right-0 absolute md:inline-flex gap-[89px] md:items-end  bg-yellow-500">
+      <div className="md:mt-[130px] md:w-[1240px] md:h-[567px]  md:mx-auto md:left-0 md:right-0 absolute md:inline-flex gap-[89px] md:items-end">
         <div className="md:h-[567px] md:w-[358px] md:flex md:flex-col md:gap-[32px] md:items-center ">
           <div className="md:h-[269px] md:w-full md:flex md:flex-col md:gap-[10px] md:mb-9">
             <img src={icon} className="w-[68px] h-[68px] md:mx-auto md:mt-3 md:mb-3 " alt="" />

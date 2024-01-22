@@ -9,8 +9,8 @@ function Home_Page(){
     return(
         <section className="md:w-full  bg-[#F4F6F8]  ">
            <Home_Hero/>
-           {/* <Home_Feature/>
-           <Home_Works/> */}
+           <Home_Feature/>
+           <Home_Works/>
 
         </section>
     )
