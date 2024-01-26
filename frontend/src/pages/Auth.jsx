@@ -1,8 +1,9 @@
-import backArrow from "../../assets/arrowleft.jpg";
-import logo from "../../assets/logo.jpg";
-import google from "../../assets/Google.jpg";
-import facebook from "../../assets/Facebook.svg";
-function Auth() {
+import backArrow from "../assets/arrowleft.jpg";
+import logo from "../assets/logo.jpg";
+import google from "../assets/Google.jpg";
+import facebook from "../assets/Facebook.svg";
+
+export function Auth() {
   return (
     <div
       className="h-[800px] p-[8px] md:p-0  md:flex md:items-center 
@@ -154,10 +155,10 @@ function Auth() {
       </form>
 
       <div className="w-[179px] h-[21px] mx-auto flex sm:hidden md:hidden mt-16">
-            <p className="text-[#08051E] font-[500] text-[18px] leading-normal underline">Continue as a Guest</p>
-      </div> 
+        <p className="text-[#08051E] font-[500] text-[18px] leading-normal underline">
+          Continue as a Guest
+        </p>
+      </div>
     </div>
   );
 }
-
-export default Auth;

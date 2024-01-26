@@ -1,10 +1,11 @@
-import Video_Nav from "../../Component/Video_Nav/video_nav";
-import searchIcon from "../../assets/search-normal.jpg";
-import videoW from "../../assets/videoW.png";
-import videoB from "../../assets/videoB.png";
-import videoF from "../../assets/videoF.png";
-import videoA from "../../assets/videoo.png";
-function Video_Rep() {
+import Video_Nav from "../components/VideoNav";
+import searchIcon from "../assets/search-normal.jpg";
+import videoW from "../assets/videoW.png";
+import videoB from "../assets/videoB.png";
+import videoF from "../assets/videoF.png";
+import videoA from "../assets/videoo.png";
+
+export function Video() {
   return (
     <section className="w-full md:max:w-[1200px] ">
       <Video_Nav />
@@ -40,28 +41,44 @@ function Video_Rep() {
         </p>
         <div className="md:flex md:items-center h-[322px] md:justify-between  md:gap-[55px]">
           <div className="md:w-[557px] pb-2 md:pb-0 sm:w-full sm:pb-8 md:h-[322px] ">
-            <img src={videoW} className="object-contain sm:w-full h-full" alt="video" />
+            <img
+              src={videoW}
+              className="object-contain sm:w-full h-full"
+              alt="video"
+            />
           </div>
 
           <div className="md:w-[557px] sm:w-full md:h-[322px]">
-            <img src={videoB} className="object-contain sm:w-full h-full" alt="video" />
+            <img
+              src={videoB}
+              className="object-contain sm:w-full h-full"
+              alt="video"
+            />
           </div>
         </div>
       </div>
       <div className="md:h-[367px] md:mx-5 sm:mx-5 sm:mt-56 md:mt-9  p-2">
-        <p className="md:text-[18px] sm:text-[18px] font-[500] leading-normal text-[#141414]">Files from last week</p>
+        <p className="md:text-[18px] sm:text-[18px] font-[500] leading-normal text-[#141414]">
+          Files from last week
+        </p>
         <div className="md:flex md:items-center md:justify-between mt-8 md:gap-[55px] ">
           <div className="md:w-[557px] sm:pb-8 pb-8 md:pb-0 ">
-            <img src={videoF} className="object-contain sm:w-full h-full" alt="video" />
+            <img
+              src={videoF}
+              className="object-contain sm:w-full h-full"
+              alt="video"
+            />
           </div>
 
           <div className="md:w-[557px] s">
-            <img src={videoA} className="object-contain sm:w-full h-full" alt="video" />
+            <img
+              src={videoA}
+              className="object-contain sm:w-full h-full"
+              alt="video"
+            />
           </div>
         </div>
       </div>
     </section>
   );
 }
-
-export default Video_Rep;
