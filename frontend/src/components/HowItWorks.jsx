@@ -48,7 +48,7 @@ export function HowItWorks() {
 
 const Li = ({ title, description, image, index }) => {
   return (
-    <li className="">
+    <li className="max-w-md mx-auto md:mx-0">
       <div className="mx-auto bg-[#1B233D] h-10 w-10 grid place-items-center text-2xl font-semibold rounded-full text-white">
         {index}
       </div>

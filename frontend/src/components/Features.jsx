@@ -28,7 +28,7 @@ export function Features() {
 
   return (
     <section id="features">
-      <Wrapper>
+      <Wrapper className="mb-8">
         <div className="text-center pt-12">
           <h1 className="font-bold text-[#141414] text-3xl">Features</h1>
           <p className="py-2 text-[#616163]">
@@ -37,8 +37,8 @@ export function Features() {
           </p>
         </div>
 
-        <div className="md:flex">
-          <ul className="">
+        <div className="md:flex md:gap-8 md:items-center">
+          <ul className="max-w-md mx-auto">
             {features.map(({ icon, title, description }, index) => (
               <Li
                 icon={icon}
@@ -49,7 +49,7 @@ export function Features() {
             ))}
           </ul>
 
-          <div className="py-8">
+          <div className="py-8 max-w-md mx-auto">
             <img
               src={videoR}
               className="object-cover h-full rounded-md shadow-md"
